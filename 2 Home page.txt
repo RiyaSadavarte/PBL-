@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Project Showcase</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Project Showcase Carousel -->
+    <section class="project-carousel">
+        <!-- Carousel content goes here -->
+        <div class="carousel-item">
+            <img src="project1.jpg" alt="Project 1">
+            <h2>Project 1</h2>
+            <p>Description of Project 1</p>
+        </div>
+        <!-- Add more carousel items -->
+    </section>
+
+    <!-- Interactive Project Map -->
+    <section class="project-map">
+        <!-- Map content goes here -->
+    </section>
+
+    <!-- Project Categories or Tags -->
+    <section class="project-categories">
+        <!-- Category buttons or tags -->
+        <button>Category 1</button>
+        <button>Category 2</button>
+        <!-- Add more category buttons -->
+    </section>
+
+    <!-- Project Progress Tracker -->
+    <section class="progress-tracker">
+        <!-- Progress tracker content goes here -->
+    </section>
+
+    <!-- Client Testimonials or Case Studies -->
+    <section class="testimonials">
+        <!-- Testimonial or case study cards -->
+        <div class="testimonial">
+            <p>"Client testimonial or case study summary."</p>
+            <cite>- Client Name, Company</cite>
+        </div>
+        <!-- Add more testimonials or case studies -->
+    </section>
+
+    <!-- Latest News or Blog Posts -->
+    <section class="latest-news">
+        <!-- News or blog post cards -->
+        <div class="news-card">
+            <h2>Latest News</h2>
+            <p>Summary of the latest news or blog post.</p>
+            <a href="#">Read more</a>
+        </div>
+        <!-- Add more news or blog post cards -->
+    </section>
+
+    <!-- Social Proof and Awards -->
+    <section class="social-proof">
+        <!-- Badges, certifications, or awards -->
+        <img src="badge1.png" alt="Badge 1">
+        <img src="badge2.png" alt="Badge 2">
+        <!-- Add more badges or awards -->
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Project Showcase. All rights reserved.</p>
+    </footer>
+
+<style>
+
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Project Carousel Styles */
+.project-carousel {
+    padding: 50px 20px;
+    /* Add carousel styles */
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-item img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Project Categories Styles */
+.project-categories {
+    padding: 20px;
+    text-align: center;
+}
+
+.project-categories button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Testimonials Styles */
+.testimonials {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+}
+
+/* Latest News Styles */
+.latest-news {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.news-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.news-card h2 {
+    margin-bottom: 10px;
+}
+
+.news-card p {
+    margin-bottom: 10px;
+}
+
+.news-card a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.news-card a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+ 
+
+</style>
+</body>
+</html>
